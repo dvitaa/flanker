@@ -1,6 +1,6 @@
 // Use JSDELIVR to get the files from a GitHub repository
 // https://cdn.jsdelivr.net/gh/<github-username>/<repository-name>/
-var repo_site = "https://cdn.jsdelivr.net/gh/kywch/jsPsych-in-Qualtrics/flanker/";
+var repo_site = "https://cdn.jsdelivr.net/gh/dvitaa/flanker/";
 
 /* experiment parameters */
 var reps_per_trial_type = 4;
@@ -8,7 +8,7 @@ var reps_per_trial_type = 4;
 /*set up welcome block*/
 var welcome = {
     type: "html-keyboard-response",
-    stimulus: "Welcome to the experiment. Press any key to begin."
+    stimulus: "Press any key to begin."
 };
 
 /*set up instructions block*/
